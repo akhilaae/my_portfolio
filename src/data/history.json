@@ -1,0 +1,18 @@
+[
+    {
+        "role":"Program Convenor",
+        "organisation": "Drishti",
+        "startDate": "March, 2024",
+        "endDate": "April, 2024",
+        "experience" : "Managed all technical events and artist proshow",
+        "imageSrc": "Drishti_2022_Logo.jpg"
+    },
+    {
+        "role":"Sponsorship head",
+        "organisation": "CET Dance Club",
+        "startDate": "March, 2024",
+        "endDate": "Ongoing",
+        "experience" : "Scoured sponsorship for club activities for Drishti and Dhwani'2024",
+        "imageSrc": "cursor.png"
+    }
+]

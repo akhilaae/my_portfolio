@@ -1,0 +1,22 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "html-5.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "css-3.png"
+    },
+    {
+        "title":"JavaScript",
+        "imageSrc": "js.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "physics.png"
+    },
+    {
+        "title": "PostgreSQL",
+        "imageSrc": "postgresql.png"
+    }
+  ]

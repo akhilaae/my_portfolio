@@ -1,0 +1,78 @@
+@import "../../vars.css";
+
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+    z-index: 2;
+    margin: 0 10%;
+}
+
+.title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+
+}
+
+.menu{
+    display: flex;
+}
+
+.menuItems{
+    display: flex;
+    gap: 1.7rem;
+    list-style: none;
+}
+
+.menuItems a{
+    font-size: 1rem;
+    color: var(--color-text);
+    text-decoration: none;
+}
+.menuBtn{
+    width: 1.5rem;
+    display: none;
+}
+@media screen and (max-width: 830px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu{
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 0.1rem;
+        z-index: 3;
+    }
+    .menuBtn{
+        display: block;
+        cursor: pointer;
+    }
+    .menuItems{
+        display: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 0.1rem;
+        border-radius: 0.1rem;
+        
+    }
+    .menuOpen {
+        display: flex;
+        background: rgb(25,55,109);
+        background: linear-gradient(
+            90deg,
+            rgba(25,55,109,0.2) 0%,
+            rgba(25,55,109,1) 100%,
+        );
+        padding: 1rem 1.5rem;
+        box-shadow: 0 0 0.04rem 0 rgba(0, 0, 0, 0.25);
+    }
+}

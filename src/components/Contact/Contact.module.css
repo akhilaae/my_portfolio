@@ -1,0 +1,6 @@
+@import '../../vars.css';
+
+.container{
+    display: flex;
+    background-color: var(--colour-secondary);
+}
