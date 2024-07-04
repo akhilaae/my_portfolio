@@ -18,5 +18,9 @@
     {
         "title": "PostgreSQL",
         "imageSrc": "postgresql.png"
+    },
+    {
+        "title": "MongoDB",
+        "imageSrc": "mongoDB.png"
     }
   ]

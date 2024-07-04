@@ -7,14 +7,18 @@ export const Contact = () => {
         <h2>Contact</h2>
         <p>Feel free to reach out!</p>
     </div>
-    <div>
+    <div className={styles.socialBox}>
         <ul className={styles.socials}>
+        <li className={styles.socialItem}>
+                <img src={getImageUrl("mail.png")} alt="mail" />
+                <a href="mailto:akhilap0307@gmail.com">akhilap0307@gmail.com</a>
+            </li>
             <li className={styles.socialItem}>
-                <img src={getImageUrl("social.png")} alt="github" />
+                <img src={getImageUrl("github.png")} alt="github" />
                 <a href="https://github.com/akhilaae">akhilaae</a>
             </li>
             <li className={styles.socialItem}>
-                <img src={getImageUrl("linkedin.png")} alt="linkedin" />
+                <img src={getImageUrl("linked.png")} alt="linkedin" />
                 <a href="https://www.linkedin.com/in/akhila-padmanabhan-335521222/">Akhila Padmanabhan</a>
             </li>
         </ul>
