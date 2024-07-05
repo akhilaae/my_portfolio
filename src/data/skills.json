@@ -12,12 +12,24 @@
         "imageSrc": "js.png"
     },
     {
-      "title": "React",
+      "title": "ReactJS",
       "imageSrc": "physics.png"
     },
     {
-        "title": "PostgreSQL",
-        "imageSrc": "postgresql.png"
+        "title": "Python",
+        "imageSrc": "python.png"
+    },
+    {
+        "title": "C",
+        "imageSrc": "c.png"
+    },
+    {
+        "title": "Java",
+        "imageSrc": "java.png"
+    },
+    {
+      "title": "PostgreSQL",
+      "imageSrc": "postgresql.png"
     },
     {
         "title": "MongoDB",
